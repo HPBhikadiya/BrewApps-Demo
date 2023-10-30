@@ -1,5 +1,7 @@
 ## Getting Started
 
+Copy all contain of .env.sample into .env
+
 First, Install npm packages:
 
 ```bash
