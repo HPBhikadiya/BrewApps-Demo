@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import Product from "./controller/book";
+import Book from "./controller/book";
 
 export default class App {
   public static instance: express.Application;
@@ -33,6 +33,6 @@ export default class App {
   }
 
   private static initializeControllers() {
-    this.instance.use("/book", new Product().router);
+    this.instance.use("/book", new Book().router);
   }
 }

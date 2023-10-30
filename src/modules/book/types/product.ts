@@ -4,7 +4,7 @@ import { Types } from "mongoose";
 export interface IBook {
   _id?: string;
   title: string;
-  bookId: string;
+  bookId: string; // B00010
   author: string;
   summary?: string;
   createdAt?: Date;
